@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<rulset name="myframework">
+    <description>regles de formatage code</description>
+    <arg name="colors"/>
+    <arg value="p"/>
+    <file>src</file>
+    <file>public/index.php</file>
+    <rule ref="PSR2"></rule>
+</rulset>
