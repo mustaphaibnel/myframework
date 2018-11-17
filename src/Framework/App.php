@@ -18,6 +18,9 @@ class App{
         if ($uri==='/blog'){
             return new Response(200,[],"<h1>Bonjour :: Blog</h1>");
         }
+        if ($uri==='/contact'){
+            return new Response(200,[],"<h1>Bonjour :: Contact</h1>");
+        }
         return new Response(404,[],"<h1>404 Not Found</h1>");
     }
 }
